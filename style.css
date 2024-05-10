@@ -7,9 +7,20 @@
   --Dark-Blue: hsl(213, 19%, 18%);
   --VeryDark-Blue: hsl(216, 12%, 8%);
 }
+:font{
 
+  --uniquifier: main-font,
+   --weight: Use a value from 700
+}
+.overpass--uniquifier  {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 * {
   padding: 0;
+
   margin: 0;
   box-sizing: border-box;
 }
@@ -23,7 +34,13 @@ body {
   display: flex;
   height: 100vh;
 }
-
+/* Container */
 .container {
+  background-color: var(--Dark-Blue);
+}
+
+.start-image {
+  margin: 2rem;
+  width: 2rem;
   background-color: var(--Dark-Blue);
 }
