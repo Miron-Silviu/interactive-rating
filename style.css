@@ -10,6 +10,19 @@
 
   /* Font-weight */
   --font-family: "Overpass", sans-serif;
+
+  --DarkBlue: hsl(215, 17%, 20%);
+  /* font-family */
+  --font-family: "Overpass", sans-serif;
+}
+:font {
+  --uniquifier: main-font;
+}
+.overpass--uniquifier {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 * {
@@ -46,11 +59,28 @@ body {
 .title {
   font-family: var(--font-family);
   color: var(--White);
+
+  margin: 1.5rem;
+  padding: 1.2rem;
+  width: 15%;
+  background-color: var(--DarkBlue);
+}
+
+/* Article */
+
+.title {
+  color: var(--White);
+  font-family: var(--font-family);
+
   font-weight: 700;
 }
 
 .description {
   font-family: var(--font-family);
   color: var(--Light-Grey);
+
+  color: var(--Light-Grey);
+  font-family: var(--font-family);
+
   font-size: 15px;
 }
