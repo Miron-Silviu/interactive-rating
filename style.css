@@ -53,34 +53,20 @@ body {
 }
 /* Article */
 .info {
-  margin: 0 0 1rem 2rem;
+  margin-left: 1rem;
 }
 
 .title {
   font-family: var(--font-family);
   color: var(--White);
 
-  margin: 1.5rem;
   padding: 1.2rem;
-  width: 15%;
-  background-color: var(--DarkBlue);
-}
-
-/* Article */
-
-.title {
-  color: var(--White);
-  font-family: var(--font-family);
-
-  font-weight: 700;
 }
 
 .description {
   font-family: var(--font-family);
   color: var(--Light-Grey);
-
   color: var(--Light-Grey);
   font-family: var(--font-family);
-
   font-size: 15px;
 }
