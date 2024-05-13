@@ -73,4 +73,14 @@ body {
 /* buttons-container */
 
 .buttons-container {
+  margin-left: 1rem;
+}
+
+/* Buttons */
+
+.button {
+  padding: 1.5rem;
+  font-size: 14px;
+  background-color: var(--DarkBlue);
+  color: var(--Light-Grey);
 }
