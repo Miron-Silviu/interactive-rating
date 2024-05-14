@@ -7,6 +7,7 @@
   --Dark-Blue: hsl(213, 19%, 18%);
   --DarkBlue: hsl(215, 17%, 20%);
   --VeryDark-Blue: hsl(216, 12%, 8%);
+  --Orange: hsl(25, 97%, 53%);
 
   /* Font-weight */
   --font-family: "Overpass", sans-serif;
@@ -83,4 +84,16 @@ body {
   font-size: 14px;
   background-color: var(--DarkBlue);
   color: var(--Light-Grey);
+}
+
+/* submit-button */
+
+.submit {
+  background-color: var(--Orange);
+  margin: 0 1rem 2rem 1rem;
+  border: none;
+  color: var(--White);
+  font-size: 15px;
+  font-family: var(--font-family);
+  letter-spacing: 2.5px;
 }
