@@ -7,9 +7,23 @@
   --Dark-Blue: hsl(213, 19%, 18%);
   --DarkBlue: hsl(215, 17%, 20%);
   --VeryDark-Blue: hsl(216, 12%, 8%);
+  --Orange: hsl(25, 97%, 53%);
 
   /* Font-weight */
   --font-family: "Overpass", sans-serif;
+
+  --DarkBlue: hsl(215, 17%, 20%);
+  /* font-family */
+  --font-family: "Overpass", sans-serif;
+}
+:font {
+  --uniquifier: main-font;
+}
+.overpass--uniquifier {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 * {
@@ -40,18 +54,21 @@ body {
 }
 /* Article */
 .info {
-  margin: 0 0 1rem 2rem;
+  margin-left: 1rem;
 }
 
 .title {
   font-family: var(--font-family);
   color: var(--White);
-  font-weight: 700;
+
+  padding: 1.2rem;
 }
 
 .description {
   font-family: var(--font-family);
   color: var(--Light-Grey);
+  color: var(--Light-Grey);
+  font-family: var(--font-family);
   font-size: 15px;
 }
 /* buttons-container */
@@ -67,4 +84,16 @@ body {
   font-size: 14px;
   background-color: var(--DarkBlue);
   color: var(--Light-Grey);
+}
+
+/* submit-button */
+
+.submit {
+  background-color: var(--Orange);
+  margin: 0 1rem 2rem 1rem;
+  border: none;
+  color: var(--White);
+  font-size: 15px;
+  font-family: var(--font-family);
+  letter-spacing: 2.5px;
 }
