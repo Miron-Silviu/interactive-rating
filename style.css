@@ -40,6 +40,8 @@ body {
   background-color: var(--VeryDark-Blue);
   display: flex;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* Container */
 .container {
@@ -97,4 +99,11 @@ body {
   font-family: var(--font-family);
   letter-spacing: 2.5px;
   width: 90%;
+}
+
+/* pop-up */
+
+.pop-up {
+  background-color: var(--Dark-Blue);
+  margin: 0 1rem 1rem 1rem;
 }
