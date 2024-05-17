@@ -42,10 +42,16 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* Container */
-.container {
+.container,
+.pop-up {
   background-color: var(--Dark-Blue);
+  margin: 1rem;
+  height: auto;
+  width: auto;
 }
 
 .start-image {
@@ -62,7 +68,6 @@ body {
 .title {
   font-family: var(--font-family);
   color: var(--White);
-
   padding: 1.2rem;
 }
 
@@ -103,7 +108,7 @@ body {
 
 /* pop-up */
 
-.pop-up {
+/* .pop-up {
   background-color: var(--Dark-Blue);
   margin: 0 1rem 1rem 1rem;
-}
+} */
