@@ -108,10 +108,19 @@ body {
 
 /* pop-up */
 
-.pop-up {
+.pop-up-image {
+  width: 50%;
 }
 
-/* .pop-up-image {
+.pop-up-info {
+  background-color: var(--DarkBlue);
+  width: 55%;
   margin: auto;
-  justify-content: center;
-} */
+}
+
+.info {
+  color: var(--Orange);
+  font-size: 12px;
+  font-family: var(--font-family);
+  letter-spacing: 2px;
+}
