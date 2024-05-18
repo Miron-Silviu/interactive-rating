@@ -29,7 +29,7 @@
   </head>
   <body>
     <!-- Container -->
-    <section class="container d-flex flex-column">
+    <section class="container d-flex flex-column rounded-4">
       <img
         class="start-image rounded-circle"
         src="./images/icon-star.svg"
@@ -51,10 +51,14 @@
       </div>
       <button class="submit p-3 rounded-pill" type="button">SUBMIT</button>
     </section>
-    <section class="pop-up">
-      <img src="./images/illustration-thank-you.svg" alt="illustration" />
-      <div>
-        <p>You selected 4 out of 5</p>
+    <section class="pop-up d-flex flex-column rounded-4">
+      <img
+        class="pop-up-image m-auto p-5"
+        src="./images/illustration-thank-you.svg"
+        alt="illustration"
+      />
+      <div class="pop-up-info d-flex justify-content-center">
+        <p class="info">You selected 4 out of 5</p>
       </div>
       <div>
         <h2>Thank your!</h2>
