@@ -108,7 +108,10 @@ body {
 
 /* pop-up */
 
-/* .pop-up {
-  background-color: var(--Dark-Blue);
-  margin: 0 1rem 1rem 1rem;
+.pop-up {
+}
+
+/* .pop-up-image {
+  margin: auto;
+  justify-content: center;
 } */
