@@ -8,7 +8,7 @@
   --DarkBlue: hsl(215, 17%, 20%);
   --VeryDark-Blue: hsl(216, 12%, 8%);
   --Orange: hsl(25, 97%, 53%);
-
+  --OrangeInfo: hsl(25, 64%, 58%);
   /* Font-weight */
   --font-family: "Overpass", sans-serif;
 
@@ -119,8 +119,22 @@ body {
 }
 
 .info {
-  color: var(--Orange);
+  color: var(--OrangeInfo);
   font-size: 12px;
   font-family: var(--font-family);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  width: auto;
+  margin: 10px 2px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto;
+  padding: 2rem;
+}
+
+.description {
+  font-family: var(--font-family);
 }
