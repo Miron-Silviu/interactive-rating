@@ -36,6 +36,8 @@ html {
   font-size: 62.5%;
 }
 
+/* Mobile */
+
 body {
   background-color: var(--VeryDark-Blue);
   display: flex;
@@ -45,6 +47,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 /* Container */
 .container,
 .pop-up {
@@ -137,4 +140,16 @@ body {
 
 .description {
   font-family: var(--font-family);
+}
+
+/* Desktop  */
+
+@media screen and (min-width: 550px) {
+  .container,
+  .pop-up {
+    background-color: var(--Dark-Blue);
+    margin: 1rem;
+    height: auto;
+    width: 35%;
+  }
 }
