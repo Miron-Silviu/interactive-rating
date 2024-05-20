@@ -144,7 +144,7 @@ body {
 
 /* Desktop  */
 
-@media screen and (min-width: 620px) and (max-width: 880px) {
+@media screen and (min-width: 620px) and (max-width: 2600px) {
   .container,
   .pop-up {
     background-color: var(--Dark-Blue);
