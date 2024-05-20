@@ -60,9 +60,8 @@ body {
 .pop-up {
   background-color: var(--Dark-Blue);
   height: auto;
-  width: 95%;
+  width: auto;
 }
-
 .start-image {
   padding: 1.2rem;
   margin: 2rem 0 1rem 2rem;
@@ -150,12 +149,19 @@ body {
 
 /* Desktop  */
 
-@media screen and (min-width: 620px) and (max-width: 2600px) {
+@media screen and (min-width: 1204px) and (max-width: 2600px) {
+  .container {
+    margin-top: 25rem;
+  }
+  .pop-up {
+    margin-bottom: 1rem;
+  }
   .container,
   .pop-up {
     background-color: var(--Dark-Blue);
-    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     height: auto;
-    width: 35%;
+    width: 40%;
   }
 }
