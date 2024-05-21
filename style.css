@@ -120,17 +120,14 @@ body {
   display: none;
 }
 .pop-up-image {
-<<<<<<< HEAD
   width: 50%;
   margin: auto;
-=======
   width: 70%;
->>>>>>> Style-branch
 }
 
 .pop-up-info {
   background-color: var(--DarkBlue);
-  width: auto;
+  width: 70%;
   margin: auto;
 }
 

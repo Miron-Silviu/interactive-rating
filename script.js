@@ -10,4 +10,5 @@ const popUp = document.querySelector(".pop-up");
 submitButton.addEventListener("click", function () {
   document.querySelector(".submit").style.backgroundColor = "#fff";
   document.querySelector(".submit").style.color = "hsl(25, 97%, 53%)";
+  document.querySelector(".pop-up").classList.remove("hidden");
 });
