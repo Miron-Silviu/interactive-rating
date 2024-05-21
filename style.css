@@ -116,15 +116,21 @@ body {
 }
 
 /* pop-up */
-
+.hidden {
+  display: none;
+}
 .pop-up-image {
+<<<<<<< HEAD
   width: 50%;
   margin: auto;
+=======
+  width: 70%;
+>>>>>>> Style-branch
 }
 
 .pop-up-info {
   background-color: var(--DarkBlue);
-  width: 55%;
+  width: auto;
   margin: auto;
 }
 
