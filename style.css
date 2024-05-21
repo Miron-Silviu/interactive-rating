@@ -116,14 +116,16 @@ body {
 }
 
 /* pop-up */
-
+.hidden {
+  display: none;
+}
 .pop-up-image {
-  width: 50%;
+  width: 70%;
 }
 
 .pop-up-info {
   background-color: var(--DarkBlue);
-  width: 55%;
+  width: auto;
   margin: auto;
 }
 
