@@ -3,8 +3,16 @@
 // Store classes in variables
 
 const submitButton = document.querySelector(".submit");
-const buttonNumbers = document.querySelector("button");
+const buttons = document.querySelectorAll(".button");
 const popUp = document.querySelector(".pop-up");
+
+// Add event for buttons
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", function () {
+    this.style.backgroundColor = "hsl(216, 12%, 54%)";
+    this.style.color = "#fff";
+  });
+}
 
 // Create event for submit button
 submitButton.addEventListener("click", function () {
