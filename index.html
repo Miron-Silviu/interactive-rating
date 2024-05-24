@@ -43,23 +43,33 @@
         </p>
       </article>
       <div class="buttons-container d-flex justify-content-around mb-5">
-        <button class="button rounded-circle border-0" type="button">1</button>
-        <button class="button rounded-circle border-0" type="button">2</button>
-        <button class="button rounded-circle border-0" type="button">3</button>
-        <button class="button rounded-circle border-0" type="button">4</button>
-        <button class="button rounded-circle border-0" type="button">5</button>
+        <button class="button rounded-circle border-0 select" type="button">
+          1
+        </button>
+        <button class="button rounded-circle border-0 select" type="button">
+          2
+        </button>
+        <button class="button rounded-circle border-0 select" type="button">
+          3
+        </button>
+        <button class="button rounded-circle border-0 select" type="button">
+          4
+        </button>
+        <button class="button rounded-circle border-0 select" type="button">
+          5
+        </button>
       </div>
       <button class="submit p-3 rounded-pill" type="button">SUBMIT</button>
     </section>
-    <section class="pop-up d-flex flex-column rounded-4">
-      <img
-        class="pop-up-image m-auto p-5"
-        src="./images/illustration-thank-you.svg"
-        alt="illustration"
-      />
-      <div
-        class="pop-up-info d-flex justify-content-center rounded-pill hidden"
-      >
+    <section class="pop-up flex-column rounded-4 hidden">
+      <div class="d-flex">
+        <img
+          class="pop-up-image m-auto p-5"
+          src="./images/illustration-thank-you.svg"
+          alt="illustration"
+        />
+      </div>
+      <div class="pop-up-info d-flex justify-content-center rounded-pill">
         <p class="info">You selected 4 out of 5</p>
       </div>
       <div class="content-contaier d-flex flex-column justify-content-center">
@@ -70,5 +80,6 @@
         </p>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
