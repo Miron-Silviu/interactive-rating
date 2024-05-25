@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-<button type=button class="btn btn-success">
+<button type=button class="btn btn-success" style="background-color:green">
 <a href ="https://miron-silviu.github.io/interactive-rating/">Live View</a></button>
 
 ## My process
@@ -45,13 +45,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -65,7 +60,22 @@ To see how you can add code snippets, see below:
 
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  @media screen and (min-width: 1204px) and (max-width: 2600px) {
+    .container {
+      margin-top: 7rem;
+    }
+    .pop-up {
+      margin-bottom: 7rem;
+    }
+    .container,
+    .pop-up {
+      background-color: var(--Dark-Blue);
+      margin-left: 2rem;
+      margin-right: 2rem;
+      height: auto;
+      width: 20%;
+    }
+  }
 }
 ```
 
