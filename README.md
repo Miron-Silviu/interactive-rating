@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Deployed
 
-[<img src="https://gist.github.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/github-icon.svg" alt="Get it on SERVICE" height="32" />](https://miron-silviu.github.io/interactive-rating/)
+> > :Buttons label, url=https://miron-silviu.github.io/interactive-rating/
 
 ## My process
 
