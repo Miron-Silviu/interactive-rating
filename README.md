@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Deployed
 
-<a href="https://miron-silviu.github.io/interactive-rating/" style="display: inline-block; background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Live</a>
+[Press the button to see live](https://miron-silviu.github.io/interactive-rating/){: .btn}
 
 ## My process
 
