@@ -32,10 +32,9 @@ Users should be able to:
 
 ![Phone screenshot](image.png)
 
-### Links
+### Deployed
 
-<button type=button class="btn btn-success" style="background-color:green">
-<a href ="https://miron-silviu.github.io/interactive-rating/">Live View</a></button>
+<a href="https://miron-silviu.github.io/interactive-rating/" style="display: inline-block; background-color: blue; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Live</a>
 
 ## My process
 
