@@ -1,4 +1,4 @@
-@import url("/normalize.css");
+@import url('/normalize.css');
 
 :root {
   --White: hsl(0, 0%, 100%);
@@ -10,17 +10,17 @@
   --Orange: hsl(25, 97%, 53%);
   --OrangeInfo: hsl(25, 64%, 58%);
   /* Font-weight */
-  --font-family: "Overpass", sans-serif;
+  --font-family: 'Overpass', sans-serif;
 
   --DarkBlue: hsl(215, 17%, 20%);
   /* font-family */
-  --font-family: "Overpass", sans-serif;
+  --font-family: 'Overpass', sans-serif;
 }
 :font {
   --uniquifier: main-font;
 }
 .overpass--uniquifier {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -146,6 +146,11 @@ body {
 
 .description {
   font-family: var(--font-family);
+}
+
+/* Markdown */
+.btn {
+  background-color: green;
 }
 
 /* Desktop  */
