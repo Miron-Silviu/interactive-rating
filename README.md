@@ -15,6 +15,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 ## Overview
 
 ## The challenge
@@ -26,19 +28,17 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-## Screenshot
+# Screenshot
 
 ![Phone screenshot](image.png)
 
-### Live view by clicking the link below
+# Live view by clicking the link below
 
 [Live](https://miron-silviu.github.io/interactive-rating/)
 
-<!-- TODO Modify all header from the current headers to header one  -->
-
 ## My process
 
-## Built with
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -82,10 +82,6 @@ const proudOfThisFunc = () => {
   console.log('🎉');
 };
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ## Continued development
 
