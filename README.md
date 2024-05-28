@@ -4,20 +4,16 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
+
   - [The challenge](#the-challenge)
+  -  - [Links](#links)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ## The challenge
 
@@ -28,13 +24,14 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
+# Links
+
+[Click me for live view](https://miron-silviu.github.io/interactive-rating/)
+
 # Screenshot
 
 ![Phone screenshot](image.png)
 
-# Links
-
-<button style='backgroud-color:green'>[Click me for live view](https://miron-silviu.github.io/interactive-rating/)</button>
 
 ## My process
 
