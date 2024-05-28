@@ -34,7 +34,7 @@ Users should be able to:
 
 # Links
 
-<button>[Click me for live view](https://miron-silviu.github.io/interactive-rating/)</button>
+<button style='backgroud-color🟩'>[Click me for live view](https://miron-silviu.github.io/interactive-rating/)</button>
 
 ## My process
 
