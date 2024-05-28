@@ -32,9 +32,9 @@ Users should be able to:
 
 ![Phone screenshot](image.png)
 
-# Click the link below for live view
+# Links
 
-(https://miron-silviu.github.io/interactive-rating/)
+-[Click me for live view](https://miron-silviu.github.io/interactive-rating/)
 
 ## My process
 
