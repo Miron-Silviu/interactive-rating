@@ -34,7 +34,7 @@ Users should be able to:
 
 # Links
 
--[Click me for live view](https://miron-silviu.github.io/interactive-rating/)
+<button>[Click me for live view](https://miron-silviu.github.io/interactive-rating/)</button>
 
 ## My process
 
