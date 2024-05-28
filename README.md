@@ -6,7 +6,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 
   - [The challenge](#the-challenge)
-  -  - [Links](#links)
+  -  - [Link](#link)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,9 +24,9 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-# Links
+# LINK
 
-[Click me for live view](https://miron-silviu.github.io/interactive-rating/)
+[CLICK ME FOR LIVE VIEW ](https://miron-silviu.github.io/interactive-rating/)
 
 # Screenshot
 
