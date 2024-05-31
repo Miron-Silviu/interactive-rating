@@ -16,9 +16,8 @@ const select = document.querySelectorAll('.select');
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function () {
-    switchNumber();
-    // this.style.backgroundColor = 'hsl(216, 12%, 54%)';
-    // this.style.color = '#fff';
+    this.style.backgroundColor = 'hsl(216, 12%, 54%)';
+    this.style.color = '#fff';
 
     // TODO Add toggle classes
   });
