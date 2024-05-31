@@ -102,6 +102,10 @@ body {
   color: var(--Light-Grey);
 }
 
+.select {
+  background-color: var(--Medium-Grey);
+  color: var(--White);
+}
 /* submit-button */
 
 .submit {
@@ -120,14 +124,12 @@ body {
   display: none;
 }
 .pop-up-image {
-  width: 50%;
-  margin: auto;
   width: 70%;
 }
 
 .pop-up-info {
   background-color: var(--DarkBlue);
-  width: 70%;
+  width: auto;
   margin: auto;
 }
 

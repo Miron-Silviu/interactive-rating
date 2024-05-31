@@ -9,9 +9,9 @@ const select = document.querySelectorAll('.select');
 // Add event for buttons
 
 // const switchNumber = function () {
-//   this.style.backgroundColor = "hsl(216, 12%, 54%)";
-//   buttons.classList.toggle("select");
-//   select.classList.toggle("buttons");
+//   this.style.backgroundColor = 'hsl(216, 12%, 54%)';
+//   buttons.classList.toggle('select');
+//   select.classList.toggle('buttons');
 // };
 
 for (let i = 0; i < buttons.length; i++) {
