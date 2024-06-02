@@ -95,16 +95,19 @@ body {
 
 /* Buttons */
 
+button,
 .button {
   padding: 1.5rem;
   font-size: 14px;
-  background-color: var(--DarkBlue);
-  color: var(--Light-Grey);
-}
-
-.select {
   background-color: var(--Medium-Grey);
   color: var(--White);
+}
+
+.select-button {
+  background-color: var(--DarkBlue);
+  color: var(--White);
+  padding: 1.5rem;
+  font-size: 14px;
 }
 /* submit-button */
 
@@ -152,6 +155,11 @@ body {
 
 .description {
   font-family: var(--font-family);
+}
+
+/* Markdown */
+.btn {
+  background-color: green;
 }
 
 /* Desktop  */
