@@ -156,7 +156,16 @@ button,
 .description {
   font-family: var(--font-family);
 }
-
+/* input */
+input {
+  padding: 2rem;
+  background-color: red;
+}
+label {
+  font-size: 14px;
+  color: var(--White);
+  background-color: red;
+}
 /* Desktop  */
 
 @media screen and (min-width: 1204px) and (max-width: 2600px) {
