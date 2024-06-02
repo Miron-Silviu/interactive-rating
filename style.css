@@ -156,6 +156,7 @@ button,
 .description {
   font-family: var(--font-family);
 }
+
 /* input */
 input {
   padding: 2rem;
@@ -166,6 +167,14 @@ label {
   color: var(--White);
   background-color: red;
 }
+
+
+/* Markdown */
+.btn {
+  background-color: green;
+}
+
+
 /* Desktop  */
 
 @media screen and (min-width: 1204px) and (max-width: 2600px) {
