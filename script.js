@@ -3,28 +3,28 @@
 // Store classes in variables
 
 const submitButton = document.querySelector('.submit');
-const buttons = document.querySelectorAll('.button');
+const buttons = document.querySelectorAll('input');
 const popUp = document.querySelector('.pop-up');
-const select = document.querySelectorAll('.select-button');
+const select = document.querySelectorAll('label');
 // Add event for buttons
 
-const init = function () {
-  select.classList.add('button');
-  buttons.classList.remove('select-button');
-};
+// const init = function () {
+//   select.classList.add('button');
+//   buttons.classList.remove('input');
+// };
 
-const switchNumber = function () {
-  select.classList.toggle('select-button');
-  buttons.classList.toggle('button');
-};
+// const switchNumber = function () {
+//   select.classList.toggle('input');
+//   buttons.classList.toggle('button');
+// };
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function () {
-    // this.classList.toggle('select-button');
-    // this.classList.toggle('button');
+    this.classList.toggle('input');
+    this.classList.toggle('label');
     // this.style.color = '#fff';
     // this.style.backgroundColor = 'hsl(216, 12%, 54%)';
     // TODO Add toggle classes
-    switchNumber();
+    // switchNumber();
   });
 }
 
