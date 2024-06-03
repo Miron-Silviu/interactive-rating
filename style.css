@@ -158,19 +158,35 @@ button,
 }
 
 /* input */
-
 input {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
-label {
+
+/* input,
+.input-radio-button {
+  background-color: green;
+  font-size: 200px;
+} */
+/* label {
   font-size: 15px;
   color: var(--Light-Grey);
   background-color: var(--DarkBlue);
   font-family: var(--font-family);
   border-radius: 100%;
   padding: 0.9rem 1.2rem 0.5rem 0;
+} */
+form {
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
 }
-
+input[type='radio'] {
+  background-color: var(--White);
+  font-weight: 800;
+  font-size: 30rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
 /* Markdown */
 .btn {
   background-color: green;
