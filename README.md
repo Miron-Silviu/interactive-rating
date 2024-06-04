@@ -53,7 +53,7 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<input type="radio" name="select" id="num-one" /><span>1</span>
 ```
 
 ```css
@@ -73,6 +73,10 @@ To see how you can add code snippets, see below:
       height: auto;
       width: 20%;
     }
+  }
+
+  input[type='radio']:checked {
+    background-color: var(--Medium-Grey);
   }
 }
 ```
