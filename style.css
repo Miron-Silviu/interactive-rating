@@ -48,19 +48,24 @@ body {
   justify-content: center;
   gap: 20px;
 }
-.main-section {
-  background-color: yellowgreen;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
+
 /* Container */
-.container {
-  margin-top: 2rem;
-}
 .pop-up {
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.container,
+.pop-up {
+  background-color: var(--Dark-Blue);
+  height: 30%;
+  width: 90%;
+}
+.container {
+  margin-top: 50%;
+}
+.pop-up {
+  margin-bottom: 50%;
   align-items: center;
 }
 .container,
@@ -75,7 +80,9 @@ body {
   width: 15%;
   background-color: var(--DarkBlue);
 }
+
 /* Article */
+
 .info {
   margin-left: 3rem;
 }
@@ -94,28 +101,13 @@ body {
   font-size: 15px;
   margin-left: 2rem;
 }
+
 /* buttons-container */
 
 .buttons-container {
   margin-left: 1rem;
 }
 
-/* Buttons */
-
-button,
-.button {
-  padding: 1.5rem;
-  font-size: 14px;
-  background-color: var(--Medium-Grey);
-  color: var(--White);
-}
-
-.select-button {
-  background-color: var(--DarkBlue);
-  color: var(--White);
-  padding: 1.5rem;
-  font-size: 14px;
-}
 /* submit-button */
 
 .submit {
@@ -178,6 +170,18 @@ input[type='radio']:checked {
   background-color: var(--Medium-Grey);
 }
 
+/* Media queries */
+
+@media screen and (min-width: 620px) {
+  .container,
+  .pop-up {
+    width: 50%;
+    height: auto;
+  }
+}
+
+/* Mobile layout for span element */
+
 @media screen and (min-width: 200px) and (max-width: 1204px) {
   span {
     color: var(--White);
@@ -188,17 +192,9 @@ input[type='radio']:checked {
   }
 }
 
-/* Desktop  */
+/* Desktop  layout*/
 
 @media screen and (min-width: 1204px) and (max-width: 2600px) {
-  .main-section {
-    background-color: yellowgreen;
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3px;
-  }
   .container {
     margin-top: 7rem;
   }
