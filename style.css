@@ -158,20 +158,6 @@ button,
 }
 /* input */
 
-input {
-  padding: 2rem;
-  background-color: red;
-  margin: 0.1px;
-  visibility: hidden;
-}
-label {
-  font-size: 15px;
-  color: var(--Light-Grey);
-  background-color: var(--DarkBlue);
-  font-family: var(--font-family);
-  border-radius: 100%;
-  padding: 0.9rem 1.2rem 0.5rem 0;
-}
 /* Desktop  */
 
 @media screen and (min-width: 1204px) and (max-width: 2600px) {
