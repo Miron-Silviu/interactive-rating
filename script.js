@@ -19,8 +19,8 @@ const select = document.querySelectorAll('label');
 // };
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function () {
-    this.classList.toggle('input');
-    this.classList.toggle('label');
+    // this.classList.toggle('input');
+    // this.classList.toggle('label');
     // this.style.color = '#fff';
     // this.style.backgroundColor = 'hsl(216, 12%, 54%)';
     // TODO Add toggle classes
