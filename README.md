@@ -30,7 +30,8 @@ Users should be able to:
 
 # Screenshot
 
-![Phone screenshot](image.png)
+![Desktop](https://github.com/Miron-Silviu/interactive-rating/assets/119732322/4273a878-27cd-4c54-bcb9-4240f5213124)
+
 
 
 ## My process
