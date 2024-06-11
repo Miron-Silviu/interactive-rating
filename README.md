@@ -1,5 +1,5 @@
 
-# Interactiv Racting
+# Interactiv Rating
 
 ## Table of contents
 
@@ -99,5 +99,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Miron-Silviu)
 - Twitter - [Silviu Miron](https://x.com/silviuumiron)
