@@ -1,14 +1,12 @@
-# Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# Interactiv Racting
 
 ## Table of contents
 
-
   - [The challenge](#the-challenge)
-  -  - [Link](#link)
+  -  [Link](#link)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
