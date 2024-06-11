@@ -19,9 +19,8 @@ Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Navigate through all pages
-- Select and live view each project
-- Complete the form and send the message
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
   
 
 
@@ -31,7 +30,8 @@ Users should be able to:
 
 # Screenshot
 
-![Desktop](https://github.com/Miron-Silviu/interactive-rating/assets/119732322/4273a878-27cd-4c54-bcb9-4240f5213124)
+![Desktop](![image](https://github.com/Miron-Silviu/interactive-rating/assets/119732322/4e084e10-1648-4a64-9515-5f7b5daa3c41)
+
 
 
 
