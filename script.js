@@ -12,7 +12,13 @@ const info = (document.querySelector('.information').textContent =
 // Add event for buttons
 
 for (let i = 0; i < radioButton.length; i++) {
-  radioButton[i].addEventListener('click', function () {});
+  radioButton[i].addEventListener('click', function () {
+    if (radioButton[i] < 0) {
+      info.push(radioButton[i]);
+    } else {
+      console.log(radioButton[i]);
+    }
+  });
 }
 // Create event for submit button
 submitButton.addEventListener('click', function () {
