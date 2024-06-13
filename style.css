@@ -139,7 +139,7 @@ body {
   margin: auto;
 }
 
-.info {
+.information {
   color: var(--OrangeInfo);
   font-size: 12px;
   font-family: var(--font-family);
