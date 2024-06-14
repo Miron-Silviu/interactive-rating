@@ -6,20 +6,19 @@ const submitButton = document.querySelector('.submit');
 const popUp = document.querySelector('.pop-up');
 const select = document.querySelectorAll('label');
 const radioButton = document.querySelectorAll('.input-radio');
-const info = (document.querySelector('.information').textContent =
-  'You selected');
+let span = document.querySelectorAll('.span-input');
+let info = document.querySelector('.information');
 
 // Add event for buttons
 
 for (let i = 0; i < radioButton.length; i++) {
   radioButton[i].addEventListener('click', function () {
-    if (radioButton[i] < 0) {
-      info.push(radioButton[i]);
-    } else {
-      console.log(radioButton[i]);
+    for (let j = 0; j < span.length; j++) {
+      info.textContent = `You selected ${[i + 1]} out of ${span.length + 1}`;
     }
   });
 }
+
 // Create event for submit button
 submitButton.addEventListener('click', function () {
   document.querySelector('.submit').style.backgroundColor = '#fff';
