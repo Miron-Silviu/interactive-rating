@@ -16,15 +16,6 @@
   /* font-family */
   --font-family: 'Overpass', sans-serif;
 }
-:font {
-  --uniquifier: main-font;
-}
-.overpass--uniquifier {
-  font-family: 'Overpass', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
 
 * {
   padding: 0;
@@ -62,11 +53,8 @@ body {
   width: 90%;
 }
 .container {
-
   margin-top: 70%;
-=======
   margin-top: 10%;
-
 }
 .pop-up {
   margin-bottom: 50%;
