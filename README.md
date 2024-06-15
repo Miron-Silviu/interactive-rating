@@ -1,14 +1,13 @@
-# Interactiv Rating
+# Interactive Rating
 
 ## Table of contents
 
 - [The challenge](#the-challenge) -[Link](#link)
 - [Screenshot](#screenshot)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
 - [Author](#author)
 
 ## The challenge
@@ -30,60 +29,17 @@ Users should be able to:
 
 ## My process
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
+  -JavaScript
 
 ## What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<input type="radio" name="select" id="num-one" /><span>1</span>
-```
-
-```css
-.proud-of-this-css {
-  @media screen and (min-width: 1204px) and (max-width: 2600px) {
-    .container {
-      margin-top: 7rem;
-    }
-    .pop-up {
-      margin-bottom: 7rem;
-    }
-    .container,
-    .pop-up {
-      background-color: var(--Dark-Blue);
-      margin-left: 2rem;
-      margin-right: 2rem;
-      height: auto;
-      width: 20%;
-    }
-  }
-
-  input[type='radio']:checked {
-    background-color: var(--Medium-Grey);
-  }
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
-
-## Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 

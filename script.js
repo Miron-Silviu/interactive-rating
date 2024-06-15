@@ -18,10 +18,20 @@ for (let i = 0; i < radioButton.length; i++) {
     }
   });
 }
-
 // Create event for submit button
 submitButton.addEventListener('click', function () {
-  document.querySelector('.submit').style.backgroundColor = '#fff';
-  document.querySelector('.submit').style.color = 'hsl(25, 97%, 53%)';
-  document.querySelector('.pop-up').classList.remove('hidden');
+  let selected = false;
+  for (const radio of radioButton) {
+    if (radio.checked) {
+      selected = true;
+      break;
+    }
+  }
+  if (selected) {
+    document.querySelector('.submit').style.backgroundColor = '#fff';
+    document.querySelector('.submit').style.color = 'hsl(25, 97%, 53%)';
+    document.querySelector('.pop-up').classList.remove('hidden');
+  } else {
+    alert('Please select one of the feedback starts');
+  }
 });
