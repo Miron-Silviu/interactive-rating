@@ -2,7 +2,8 @@
 
 ## Table of contents
 
-- [The challenge](#the-challenge) -[Link](#link)
+- [The challenge](#the-challenge)
+-[Link](#link)
 - [Screenshot](#screenshot)
 - [My process](#my-process)
 - [Built with](#built-with)
