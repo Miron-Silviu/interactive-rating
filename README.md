@@ -21,7 +21,7 @@ Users should be able to:
 
 # LINK
 
-[DEMO]: (https://miron-silviu.github.io/interactive-rating/)
+[DEMO]:(https://miron-silviu.github.io/interactive-rating/)
 
 # Screenshot
 
