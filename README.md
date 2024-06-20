@@ -22,7 +22,7 @@ Users should be able to:
 
 # LINK
 
-[DEMO: VIEW](https://miron-silviu.github.io/interactive-rating/)
+[VIEW:DEMO](https://miron-silviu.github.io/interactive-rating/)
 
 # Screenshot
 
