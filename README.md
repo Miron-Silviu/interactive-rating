@@ -2,14 +2,18 @@
 
 ## Table of contents
 
+ -[Link](#link)
 - [The challenge](#the-challenge)
--[Link](#link)
 - [Screenshot](#screenshot)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
 - [Author](#author)
+
+
+## Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/interactive-rating/)
 
 ## The challenge
 
@@ -20,9 +24,7 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-# LINK
 
-[VIEW DEMO](https://miron-silviu.github.io/interactive-rating/)
 
 # Screenshot
 
